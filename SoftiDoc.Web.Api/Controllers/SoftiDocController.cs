@@ -35,6 +35,7 @@ namespace SoftiDoc.Web.Api.Controllers
 
             return Request.CreateResponse(HttpStatusCode.OK, "hello im here");
         }
+
     }
 }
    
