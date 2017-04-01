@@ -33,9 +33,8 @@ namespace SoftiDoc.Web.Api.Controllers
 
             var str = dataset.Tables[0].Rows[0]["Databasename"].ToString();
 
-            return Request.CreateResponse(HttpStatusCode.OK, str);
+            return Request.CreateResponse(HttpStatusCode.OK, "hello im here");
         }
-
     }
 }
    
