@@ -201,6 +201,9 @@
   <ItemGroup>
     <Compile Include="Controllers\SoftiDocController.cs" />
     <Compile Include="CorsConfig.cs" />
+    <Compile Include="Dto\Cabinets.cs" />
+    <Compile Include="Dto\Databases.cs" />
+    <Compile Include="Dto\Subdatabases.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
